@@ -44,8 +44,8 @@ html {
 }
 
 .collapse form .btn-outline-success:hover {
-    background-color: red;
-    border: 1px solid red;
+    background-color: green;
+    border: 1px solid green;
     transition: 0.4s ease-in-out;
 }
 /*Current City temperature*/
@@ -113,7 +113,7 @@ html {
 }
 
 .onoffswitch4-inner:before {
-    content: "\00b0 F";
+    content: " F \00b0";
     padding-left: 10px;
     background-color: #FFFFFF;
     color: #27A1CA;
@@ -121,7 +121,7 @@ html {
 }
 
 .onoffswitch4-inner:after {
-    content: "    \00b0 C ";
+    content: "     C \00b0";
     padding-right: 10px;
 
     background-color: #FFFFFF;
@@ -154,7 +154,18 @@ html {
 
 
 /*Country List Modal*/
-
+.accordion div .row a
+    {
+      text-decoration:none; 
+      color:#2F4F4F;
+      font-size: small; 
+    }
+.accordion div .row a:hover
+    {
+      text-decoration:none; 
+      color:dodgerblue;
+      font-size: small; 
+    }
 
 
 
